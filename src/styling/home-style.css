@@ -1,0 +1,17 @@
+.homePage {
+  background-color: white;
+  background-image: url(../../public/img/cocktails.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 2px 2px 6px gray;
+  text-align: center;
+  max-height: calc(100vh - 50vh);
+  padding: 2rem;
+}
+
+.homePage h1 {
+  font-size: 6rem;
+  margin: 0;
+  padding: 0;
+}

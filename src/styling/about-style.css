@@ -1,0 +1,11 @@
+.about-main h1 {
+  color: #0396e0;
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+
+.about-main {
+  place-content: start;
+  padding-top: 2rem;
+}

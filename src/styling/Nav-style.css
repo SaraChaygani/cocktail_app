@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 1rem calc(100% - 90%);
+  min-height: calc(100vh - 90vh);
+  background-color: white;
+}
+
+nav h3 {
+  margin-right: auto;
+  font-weight: bolder;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+ul li a {
+  color: #000;
+}
+
+
+ul li a:hover {
+  color: #00a8ff;
+}
+
+ul li a.active-link {
+  color: #00a8ff;
+}
+
+h3 a {
+  color: #0396e0;
+
+}
+
+a {
+  text-decoration: none;
+}

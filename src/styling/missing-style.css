@@ -1,0 +1,5 @@
+.video-container {
+  margin-top: calc(100vh - 80vh);
+  display: flex;
+  place-content: center;
+}

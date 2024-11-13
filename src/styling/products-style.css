@@ -1,0 +1,68 @@
+.products-main {
+  padding-top: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.products-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "list-header list-header list-header"
+    "list-cocktails list-cocktails list-cocktails";
+}
+
+.cocktails-list-header {
+  grid-area: list-header;
+}
+
+.cocktails-list-header h1 {
+  font-size: 3rem;
+  color: #28b4f9;
+  margin: 0.8rem 0 1.5rem 0;
+}
+
+.cocktails-list {
+  grid-area: list-cocktails;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+
+ul.cocktails-list li {
+  border-radius: 5%;
+  grid: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  transition: all .3s ease-in-out;
+}
+
+
+
+.products-main ul {
+  list-style: none;
+  margin: 0;
+}
+
+
+.cocktail-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: last baseline;
+}
+
+
+img {
+  width: 100%;
+  max-height: 80%;
+  object-position: center;
+  object-fit: cover;
+}

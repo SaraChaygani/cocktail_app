@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kristi-regular {
+  font-family: "Kristi", cursive;
+  font-weight: 550;
+  font-style: normal;
+}
+
+
+button {
+  padding: 0.5rem 0.8rem;
+  background-color: #28b4f9;
+  border: none;
+  outline: none;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 0.7rem;
+  margin: 0;
+  cursor: pointer;
+}
+
+main {
+  min-height: calc(100vh - 11vh);
+  margin-top: 3.8rem;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.main-display {
+  min-width: 80%;
+}
